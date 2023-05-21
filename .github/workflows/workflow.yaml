@@ -8,12 +8,12 @@ on:
         - main
     workflow_dispatch:
     
-  fork:
-    hello:
-      runs-on: ubuntu-latest
-      steps: 
-        uses: actions/checkout@v2
-        name: hello world
-        run: echo "Hello World"
-        shell: bash
+fork:
+  hello:
+    runs-on: ubuntu-latest
+    steps: 
+      uses: actions/checkout@v2
+      name: hello world
+      run: echo "Hello World"
+      shell: bash
       
